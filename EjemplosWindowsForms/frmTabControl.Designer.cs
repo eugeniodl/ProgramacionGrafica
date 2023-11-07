@@ -28,342 +28,403 @@
         /// </summary>
         private void InitializeComponent()
         {
-            tabControl1 = new TabControl();
-            tabPage2 = new TabPage();
-            groupBox2 = new GroupBox();
-            groupBox1 = new GroupBox();
-            radioButton2 = new RadioButton();
-            radioButton1 = new RadioButton();
-            label4 = new Label();
-            textBox3 = new TextBox();
-            label3 = new Label();
-            textBox2 = new TextBox();
-            label2 = new Label();
-            textBox1 = new TextBox();
-            label1 = new Label();
-            tabPage3 = new TabPage();
-            label5 = new Label();
-            comboBox1 = new ComboBox();
-            pictureBox1 = new PictureBox();
-            label6 = new Label();
-            dateTimePicker1 = new DateTimePicker();
-            checkBox1 = new CheckBox();
-            groupBox3 = new GroupBox();
-            label7 = new Label();
-            textBox4 = new TextBox();
-            label8 = new Label();
-            listBox1 = new ListBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            tabControl1.SuspendLayout();
-            tabPage2.SuspendLayout();
-            groupBox2.SuspendLayout();
-            groupBox1.SuspendLayout();
-            tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
-            groupBox3.SuspendLayout();
-            SuspendLayout();
+            this.components = new System.ComponentModel.Container();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.label6 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.mtxtCedula = new System.Windows.Forms.MaskedTextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNombres = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.tabControl1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            this.tabPage3.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
+            this.SuspendLayout();
             // 
             // tabControl1
             // 
-            tabControl1.Controls.Add(tabPage2);
-            tabControl1.Controls.Add(tabPage3);
-            tabControl1.Location = new Point(2, 12);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(786, 476);
-            tabControl1.TabIndex = 0;
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Controls.Add(this.tabPage3);
+            this.tabControl1.Location = new System.Drawing.Point(2, 16);
+            this.tabControl1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(898, 635);
+            this.tabControl1.TabIndex = 0;
             // 
             // tabPage2
             // 
-            tabPage2.Controls.Add(groupBox2);
-            tabPage2.Controls.Add(groupBox1);
-            tabPage2.Location = new Point(4, 24);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(778, 448);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Datos Generales";
-            tabPage2.UseVisualStyleBackColor = true;
+            this.tabPage2.Controls.Add(this.groupBox2);
+            this.tabPage2.Controls.Add(this.groupBox1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 29);
+            this.tabPage2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage2.Size = new System.Drawing.Size(890, 602);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Datos Generales";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
-            groupBox2.Controls.Add(checkBox1);
-            groupBox2.Controls.Add(dateTimePicker1);
-            groupBox2.Controls.Add(label6);
-            groupBox2.Controls.Add(pictureBox1);
-            groupBox2.Location = new Point(419, 19);
-            groupBox2.Name = "groupBox2";
-            groupBox2.Size = new Size(328, 327);
-            groupBox2.TabIndex = 1;
-            groupBox2.TabStop = false;
-            groupBox2.Text = "Datos del Perfil";
-            // 
-            // groupBox1
-            // 
-            groupBox1.Controls.Add(comboBox1);
-            groupBox1.Controls.Add(label5);
-            groupBox1.Controls.Add(radioButton2);
-            groupBox1.Controls.Add(radioButton1);
-            groupBox1.Controls.Add(label4);
-            groupBox1.Controls.Add(textBox3);
-            groupBox1.Controls.Add(label3);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(label2);
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(label1);
-            groupBox1.Location = new Point(15, 19);
-            groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(389, 327);
-            groupBox1.TabIndex = 0;
-            groupBox1.TabStop = false;
-            groupBox1.Text = "Datos del Usuario";
-            // 
-            // radioButton2
-            // 
-            radioButton2.AutoSize = true;
-            radioButton2.Location = new Point(168, 189);
-            radioButton2.Name = "radioButton2";
-            radioButton2.Size = new Size(78, 19);
-            radioButton2.TabIndex = 8;
-            radioButton2.TabStop = true;
-            radioButton2.Text = "Femenino";
-            radioButton2.UseVisualStyleBackColor = true;
-            // 
-            // radioButton1
-            // 
-            radioButton1.AutoSize = true;
-            radioButton1.Location = new Point(168, 156);
-            radioButton1.Name = "radioButton1";
-            radioButton1.Size = new Size(80, 19);
-            radioButton1.TabIndex = 7;
-            radioButton1.TabStop = true;
-            radioButton1.Text = "Masculino";
-            radioButton1.UseVisualStyleBackColor = true;
-            // 
-            // label4
-            // 
-            label4.AutoSize = true;
-            label4.Location = new Point(28, 160);
-            label4.Name = "label4";
-            label4.Size = new Size(35, 15);
-            label4.TabIndex = 6;
-            label4.Text = "Sexo:";
-            // 
-            // textBox3
-            // 
-            textBox3.Location = new Point(168, 111);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(182, 23);
-            textBox3.TabIndex = 5;
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(28, 114);
-            label3.Name = "label3";
-            label3.Size = new Size(104, 15);
-            label3.TabIndex = 4;
-            label3.Text = "Segundo Apellido:";
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(168, 71);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(182, 23);
-            textBox2.TabIndex = 3;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(28, 74);
-            label2.Name = "label2";
-            label2.Size = new Size(92, 15);
-            label2.TabIndex = 2;
-            label2.Text = "Primer Apellido:";
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(168, 32);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(182, 23);
-            textBox1.TabIndex = 1;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(28, 35);
-            label1.Name = "label1";
-            label1.Size = new Size(59, 15);
-            label1.TabIndex = 0;
-            label1.Text = "Nombres:";
-            // 
-            // tabPage3
-            // 
-            tabPage3.Controls.Add(button3);
-            tabPage3.Controls.Add(button2);
-            tabPage3.Controls.Add(button1);
-            tabPage3.Controls.Add(listBox1);
-            tabPage3.Controls.Add(label8);
-            tabPage3.Controls.Add(groupBox3);
-            tabPage3.Location = new Point(4, 24);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(778, 448);
-            tabPage3.TabIndex = 2;
-            tabPage3.Text = "Datos Opcionales";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(28, 231);
-            label5.Name = "label5";
-            label5.Size = new Size(77, 15);
-            label5.TabIndex = 9;
-            label5.Text = "Nacionalidad";
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(168, 228);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(182, 23);
-            comboBox1.TabIndex = 10;
-            comboBox1.Text = "Seleccione";
-            // 
-            // pictureBox1
-            // 
-            pictureBox1.Image = Properties.Resources._1678753369204;
-            pictureBox1.Location = new Point(95, 32);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(156, 158);
-            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox1.TabIndex = 0;
-            pictureBox1.TabStop = false;
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(39, 218);
-            label6.Name = "label6";
-            label6.Size = new Size(122, 15);
-            label6.TabIndex = 1;
-            label6.Text = "Fecha de Nacimiento:";
-            // 
-            // dateTimePicker1
-            // 
-            dateTimePicker1.Format = DateTimePickerFormat.Short;
-            dateTimePicker1.Location = new Point(183, 212);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(101, 23);
-            dateTimePicker1.TabIndex = 2;
+            this.groupBox2.Controls.Add(this.checkBox1);
+            this.groupBox2.Controls.Add(this.dateTimePicker1);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.pictureBox1);
+            this.groupBox2.Location = new System.Drawing.Point(479, 25);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox2.Size = new System.Drawing.Size(375, 436);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Datos del Perfil";
             // 
             // checkBox1
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(39, 253);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(173, 19);
-            checkBox1.TabIndex = 3;
-            checkBox1.Text = "¿Desea mostrar estos datos?";
-            checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(45, 337);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(220, 24);
+            this.checkBox1.TabIndex = 3;
+            this.checkBox1.Text = "¿Desea mostrar estos datos?";
+            this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // groupBox3
+            // dateTimePicker1
             // 
-            groupBox3.Controls.Add(textBox4);
-            groupBox3.Controls.Add(label7);
-            groupBox3.Location = new Point(21, 21);
-            groupBox3.Name = "groupBox3";
-            groupBox3.Size = new Size(316, 389);
-            groupBox3.TabIndex = 0;
-            groupBox3.TabStop = false;
-            groupBox3.Text = "Otros Datos del Usuario";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePicker1.Location = new System.Drawing.Point(209, 283);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(115, 27);
+            this.dateTimePicker1.TabIndex = 2;
             // 
-            // label7
+            // label6
             // 
-            label7.AutoSize = true;
-            label7.Location = new Point(13, 27);
-            label7.Name = "label7";
-            label7.Size = new Size(72, 15);
-            label7.TabIndex = 0;
-            label7.Text = "Descripción:";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(45, 291);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(152, 20);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "Fecha de Nacimiento:";
             // 
-            // textBox4
+            // pictureBox1
             // 
-            textBox4.Location = new Point(15, 54);
-            textBox4.Multiline = true;
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(278, 310);
-            textBox4.TabIndex = 1;
+            this.pictureBox1.Image = global::EjemplosWindowsForms.Properties.Resources._1678753369204;
+            this.pictureBox1.Location = new System.Drawing.Point(109, 43);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(178, 211);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
-            // label8
+            // groupBox1
             // 
-            label8.AutoSize = true;
-            label8.Location = new Point(379, 42);
-            label8.Name = "label8";
-            label8.Size = new Size(74, 15);
-            label8.TabIndex = 1;
-            label8.Text = "Preferencias:";
+            this.groupBox1.Controls.Add(this.mtxtCedula);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.textBox3);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.txtNombres);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(17, 25);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox1.Size = new System.Drawing.Size(445, 436);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Datos del Usuario";
             // 
-            // listBox1
+            // mtxtCedula
             // 
-            listBox1.FormattingEnabled = true;
-            listBox1.ItemHeight = 15;
-            listBox1.Items.AddRange(new object[] { "Bailar", "Dibujar", "Cocinar", "Cantar", "Estudiar" });
-            listBox1.Location = new Point(379, 75);
-            listBox1.Name = "listBox1";
-            listBox1.Size = new Size(120, 94);
-            listBox1.TabIndex = 2;
+            this.mtxtCedula.Location = new System.Drawing.Point(192, 360);
+            this.mtxtCedula.Mask = "000-000000-0000L";
+            this.mtxtCedula.Name = "mtxtCedula";
+            this.mtxtCedula.Size = new System.Drawing.Size(207, 27);
+            this.mtxtCedula.TabIndex = 12;
+            this.mtxtCedula.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.mtxtCedula_MaskInputRejected);
             // 
-            // button1
+            // label9
             // 
-            button1.Location = new Point(590, 73);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 3;
-            button1.Text = "Nuevo";
-            button1.UseVisualStyleBackColor = true;
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(35, 363);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(58, 20);
+            this.label9.TabIndex = 11;
+            this.label9.Text = "Cédula:";
             // 
-            // button2
+            // comboBox1
             // 
-            button2.Location = new Point(590, 133);
-            button2.Name = "button2";
-            button2.Size = new Size(75, 23);
-            button2.TabIndex = 4;
-            button2.Text = "Guardar";
-            button2.UseVisualStyleBackColor = true;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(192, 304);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(207, 28);
+            this.comboBox1.TabIndex = 10;
+            this.comboBox1.Text = "Seleccione";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(32, 308);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(98, 20);
+            this.label5.TabIndex = 9;
+            this.label5.Text = "Nacionalidad";
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(192, 252);
+            this.radioButton2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(95, 24);
+            this.radioButton2.TabIndex = 8;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Femenino";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(192, 208);
+            this.radioButton1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(97, 24);
+            this.radioButton1.TabIndex = 7;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Masculino";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(32, 213);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(44, 20);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Sexo:";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(192, 148);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(207, 27);
+            this.textBox3.TabIndex = 5;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(32, 152);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(132, 20);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Segundo Apellido:";
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(192, 95);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(207, 27);
+            this.textBox2.TabIndex = 3;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(32, 99);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(116, 20);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Primer Apellido:";
+            // 
+            // txtNombres
+            // 
+            this.txtNombres.Location = new System.Drawing.Point(192, 43);
+            this.txtNombres.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.txtNombres.Name = "txtNombres";
+            this.txtNombres.Size = new System.Drawing.Size(207, 27);
+            this.txtNombres.TabIndex = 1;
+            this.txtNombres.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNombres_KeyDown);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(32, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(73, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nombres:";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.button3);
+            this.tabPage3.Controls.Add(this.button2);
+            this.tabPage3.Controls.Add(this.button1);
+            this.tabPage3.Controls.Add(this.listBox1);
+            this.tabPage3.Controls.Add(this.label8);
+            this.tabPage3.Controls.Add(this.groupBox3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 29);
+            this.tabPage3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.tabPage3.Size = new System.Drawing.Size(890, 602);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Datos Opcionales";
+            this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
-            button3.Location = new Point(590, 198);
-            button3.Name = "button3";
-            button3.Size = new Size(75, 23);
-            button3.TabIndex = 5;
-            button3.Text = "Cerrar";
-            button3.UseVisualStyleBackColor = true;
+            this.button3.Location = new System.Drawing.Point(674, 264);
+            this.button3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(86, 31);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Cerrar";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(674, 177);
+            this.button2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(86, 31);
+            this.button2.TabIndex = 4;
+            this.button2.Text = "Guardar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(674, 97);
+            this.button1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(86, 31);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Nuevo";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 20;
+            this.listBox1.Items.AddRange(new object[] {
+            "Bailar",
+            "Dibujar",
+            "Cocinar",
+            "Cantar",
+            "Estudiar"});
+            this.listBox1.Location = new System.Drawing.Point(433, 100);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(137, 124);
+            this.listBox1.TabIndex = 2;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(433, 56);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(92, 20);
+            this.label8.TabIndex = 1;
+            this.label8.Text = "Preferencias:";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.textBox4);
+            this.groupBox3.Controls.Add(this.label7);
+            this.groupBox3.Location = new System.Drawing.Point(24, 28);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.groupBox3.Size = new System.Drawing.Size(361, 519);
+            this.groupBox3.TabIndex = 0;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Otros Datos del Usuario";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(17, 72);
+            this.textBox4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox4.Multiline = true;
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(317, 412);
+            this.textBox4.TabIndex = 1;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 36);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(90, 20);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "Descripción:";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // frmTabControl
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 500);
-            Controls.Add(tabControl1);
-            Name = "frmTabControl";
-            Text = "Uso de TabControl";
-            tabControl1.ResumeLayout(false);
-            tabPage2.ResumeLayout(false);
-            groupBox2.ResumeLayout(false);
-            groupBox2.PerformLayout();
-            groupBox1.ResumeLayout(false);
-            groupBox1.PerformLayout();
-            tabPage3.ResumeLayout(false);
-            tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
-            groupBox3.ResumeLayout(false);
-            groupBox3.PerformLayout();
-            ResumeLayout(false);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(914, 667);
+            this.Controls.Add(this.tabControl1);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Name = "frmTabControl";
+            this.Text = "Uso de TabControl";
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
+            this.ResumeLayout(false);
+
         }
 
         #endregion
@@ -380,7 +441,7 @@
         private Label label3;
         private TextBox textBox2;
         private Label label2;
-        private TextBox textBox1;
+        private TextBox txtNombres;
         private Label label1;
         private ComboBox comboBox1;
         private Label label5;
@@ -396,5 +457,8 @@
         private Button button1;
         private ListBox listBox1;
         private Label label8;
+        private ErrorProvider errorProvider1;
+        private MaskedTextBox mtxtCedula;
+        private Label label9;
     }
 }
